@@ -1,0 +1,11 @@
+# Keep the local venv, generated diagrams, and hardware-specific dumps out of git.
+*
+!/.gitignore
+
+!/toposcope/
+!/toposcope/**/
+!/toposcope/**/*.py
+
+!/README.md
+!/LICENSE
+!/pyproject.toml
